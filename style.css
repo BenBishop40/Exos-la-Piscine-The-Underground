@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/assets/fonts/Roboto/Roboto-Regular.ttf");
+}
+body {
+    font-family: "Roboto";
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
+}
+h1 {
+    font-size: 3rem;
+}
+
+/* CSS Banner1 */
+
+.Banner1 {
+    background-image: url("/assets/img/banner-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px;
+    color: whitesmoke;
+}
+
+.Banner1>p {
+    margin-bottom: 50px;
+}
+
+.Banner1>a {
+    background-color: whitesmoke;
+    border-radius: 25px;
+    padding: 15px 35px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.Banner1>a:hover {
+    background-color: grey;
+    transition: 600ms;
+    border-radius: 25px;
+    padding: 15px 35px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600; 
+}
+
+/* CSS Banner2 */
+
+.Banner2Img {
+    background-image: url("/assets/img/banner-2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+    color: whitesmoke;
+    margin-top: 220px;
+    padding-bottom: 300px;
+}
+
+.Banner2Txt>h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 80px;
+}
+.Banner2Txt>p {
+    color: grey;
+    justify-content: center;
+    padding : 0px 350px;
+    margin-bottom: 30px;
+}
+
+.Banner2Txt>a {
+    background-color: black;
+    border-radius: 25px;
+    padding: 15px 35px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.Banner2Txt>a:hover {
+    background-color: grey;
+    transition: 600ms;
+    border-radius: 25px;
+    padding: 15px 35px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600; 
+}
+
+/* CSS footer */
+
+footer {
+    background-color: rgb(50, 50, 50);
+    font-size: 0.8rem;
+    padding: 20px;
+    color: whitesmoke;
+}
